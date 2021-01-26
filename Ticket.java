@@ -46,8 +46,10 @@ public class Ticket {
 	salida.println("Productos:"+producto+"........................................$"+costo);
 	//salida.println(costo);
 	salida.println("Monto total: "+monTot);
-	salida.println("Atendio:"+vendedor);
+	salida.println("Atendio:"+vendedor
+		       salida.println("Fecha: "+fecha.toString());
 	salida.println("Gracias por su compra\n Vuelva pronto");
+			
 	
 	salida.close();
 	br.close();
